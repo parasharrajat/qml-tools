@@ -1,0 +1,14 @@
+prefix=/home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 3DQuickAnimation
+Description: Qt 3DQuickAnimation module
+Version: 5.12.8
+Libs: -L${libdir} -lQt53DQuickAnimation 
+Libs.private: /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt53DAnimation.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt53DRender.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5OpenGLExtensions.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt53DQuick.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt53DCore.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Quick.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Gui.a /usr/lib/libGL.so /usr/lib/libpng16.so /usr/lib/libharfbuzz.so /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Qml.a -lrt /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Network.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Concurrent.a /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Core.a -lm /usr/lib/libz.so /usr/lib/libicui18n.so /usr/lib/libicuuc.so /usr/lib/libicudata.so /usr/lib/libdl.so /usr/lib/libpcre2-16.so /usr/lib/libdouble-conversion.so /usr/lib/libgthread-2.0.so /usr/lib/libglib-2.0.so -lpthread /usr/lib/libGL.so   
+Cflags: -DQT_3DQUICKANIMATION_LIB -I${includedir}/Qt3DQuickAnimation -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Qml Qt53DCore Qt53DRender Qt53DAnimation Qt53DQuick
+

@@ -1,0 +1,14 @@
+prefix=/home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 DataVisualization
+Description: Qt DataVisualization module
+Version: 5.12.8
+Libs: -L${libdir} -lQt5DataVisualization 
+Libs.private: /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Gui.a /usr/lib/libGL.so /usr/lib/libpng16.so /usr/lib/libharfbuzz.so /home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static/lib/libQt5Core.a -lm /usr/lib/libz.so /usr/lib/libicui18n.so /usr/lib/libicuuc.so /usr/lib/libicudata.so /usr/lib/libdl.so /usr/lib/libpcre2-16.so /usr/lib/libdouble-conversion.so /usr/lib/libgthread-2.0.so /usr/lib/libglib-2.0.so -lpthread /usr/lib/libGL.so   
+Cflags: -DQT_DATAVISUALIZATION_LIB -I${includedir}/QtDataVisualization -I${includedir}
+Requires: Qt5Core Qt5Gui
+

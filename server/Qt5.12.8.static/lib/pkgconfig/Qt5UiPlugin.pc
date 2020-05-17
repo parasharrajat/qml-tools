@@ -1,0 +1,12 @@
+prefix=/home/anonymous/dev/vscode-qml/server/qmljsreformatter/qt5/{SOMEWHERE}/Qt5.12.8.static
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 UiPlugin
+Description: Qt UiPlugin module
+Version: 5.12.8
+Cflags: -DQT_UIPLUGIN_LIB -I${includedir}/QtUiPlugin -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+

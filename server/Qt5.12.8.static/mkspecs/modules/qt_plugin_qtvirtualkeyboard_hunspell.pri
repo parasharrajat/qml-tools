@@ -1,0 +1,5 @@
+QT_PLUGIN.qtvirtualkeyboard_hunspell.TYPE = virtualkeyboard
+QT_PLUGIN.qtvirtualkeyboard_hunspell.EXTENDS =
+QT_PLUGIN.qtvirtualkeyboard_hunspell.DEPENDS = core gui qml virtualkeyboard hunspellinputmethod_private
+QT_PLUGIN.qtvirtualkeyboard_hunspell.CLASS_NAME = QtVirtualKeyboardHunspellPlugin
+QT_PLUGINS += qtvirtualkeyboard_hunspell

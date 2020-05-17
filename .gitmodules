@@ -1,0 +1,3 @@
+[submodule "qmljsreformatter"]
+	path = server/qmljsreformatter
+	url = git@github.com:Orange-OpenSource/qmljsreformatter.git
